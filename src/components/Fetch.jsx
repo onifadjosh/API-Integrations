@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 
+// using fetch API in react to fetch images
 const Fetch = () => {
     const [photos, Setphotos] = useState([]);
     const [error, SetError] = useState(null)
